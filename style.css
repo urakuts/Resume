@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    width: 1280px;
+    height: 1399px;
+    
+}
+.wrap{
+    display: flex;
+    position: absolute;
+    width: 1200px;
+    height: 1319px;
+    margin: 40px;
+    box-shadow: 6px 6px 20px
+}
+/* Left sidebar */
+.left_side{
+    width: 370px;
+    height: 1319px;
+    background-color: rgba(30, 41, 57, 1);
+    color: white;
+}
+
+.photo{
+    /* position: absolute; */
+    width: 370px;
+    height: 354px;
+    margin-top: 40px;
+}
+.cont {   
+    margin-left: 40px;
+    margin-top: 51px;
+    margin-right: 147px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+#C, #E{
+    margin-right: 10px;
+}
+.cont, a{
+    color: wheat;
+}
+.cont, a:visited {
+    color: yellowgreen;
+}
+.cont, a:active{
+    color: white;
+}
+.skills{
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 109px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+li{
+    color: rgba(251, 109, 58, 1);
+}
+li span{
+    color: wheat;
+}
+.soft_skills {
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 109px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    
+}
+/* Right sidebar */
+.right_side{
+    width: 830px;
+    height: 1319px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.name{
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 340px;
+}
+#p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+}
+#p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 19px;
+}
+#p3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A8A8A8;
+}
+.project, .work, .education{
+    margin-top: 40px;
+    margin-right: 260px;
+    margin-left: 90px;
+
+}
+.project li{
+    color: black;
+}
+#p4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
